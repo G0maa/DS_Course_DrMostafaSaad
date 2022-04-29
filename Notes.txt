@@ -1,0 +1,31 @@
+EXCELLENT -> OK -> MEH -> BAD.
+5 | 3 | 3 | 1
+Section 1: EXCELLENT.
+Section 2: EXCELLENT.
+Section 3: OK.
+Section 4: EXCELLENT.
+Section 5: EXCELLENT.
+Section 6: OK.
+Section 7: MEH. (2 Unable to solve & 2 Wrong answer)
+Section 8: EXCELLENT.
+Section 9: MEH. (I tried my best) 8/12 -> Totally missed canonicalizing.
+Section 10: OK. (Lazy Processing Trick -> read), (1 Class Vs 2 Class representing data structure)
+Section 11: BAD. (I'll give myself 5/10) *Didn't do the optional project*
+Section 12: MEH. 4/6 (Two unsolved/wrong, the minimum height for AVL sequence misleaded me, Optional not solved)
+Section 13: EXCELLENT. (First Hard problem = Correct but very slow, Seocnd Hard Problem = Correct)
+Section 14: EXCELLENT.
+REVIEW(S): Unimportant.
+Section 18: END.
+
+* FINISHED *
+
+Side note:
+
+	- When using 2 classes to represent data structure (e.g. BinaryNode and BinaryTree), it will be easier to deal
+	  with the root, but you will have to duplicate functions, creating interface that has no parameters that deals 
+	  with the root (if it exists or not) and if the root exists it will call another private function that uses
+	  the (kind-of) old logic. (See 33_BST_Using_Node.cpp). -> In 2 class representation parameter always has Node 	
+	  in it, in one class representation this is always implicitly there.
+
+
+	- PriorityQueue acts like a MaxHeap. (Syntax to turn it to MinHeap -> #120)
